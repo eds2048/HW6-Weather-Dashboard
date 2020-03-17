@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+   
+<!--NAVIGATION BAR  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <h1 style="color:white" align="center"> Weather Dashboard </h1>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    </div>
+</nav>
+<!-- CONTAINER -->
+<div class="container-fluid">
+    <!-- SEARCH FOR CITY -->
+    <div class="row">
+        <div class="col-md-2">
+            <h5>Search for a City</h5>
+            
+<!-- INPUT BOX & BUTTON HERE -->
+
+<form id="city-form">
+    <!-- Label for Text Box -->
+    <label for="city-input">SEARCH FOR YOUR CITY</label>
+
+    <!-- Text Input Box -->
+    <input type="text" id="city-input"><br>
+
+    <!-- Submit Button -->
+    <input id="select-city" type="submit" value="GO!">
+</form>
+
+ 
+
+        <div class="col-sm-10">
+            <h3>City Results End Up Here</h3>
+            <p>Temperature</p>
+            <p>Humidity</p>
+            <p>Wind Speed</p>
+            <p>UV Index</p>
+
+        </div>
+
+
+
+
+
+
+
+<div id="weather-view"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <!-- LIST OF CITIES HERE -->
+    <div class="card" style="width: 12rem;">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Austin</li>
+            <li class="list-group-item">Chicago</li>
+            <li class="list-group-item">New York</li>
+            <li class="list-group-item">Orlando</li>
+            <li class="list-group-item">San Francisco</li>
+            <li class="list-group-item">Seattle</li>
+            <li class="list-group-item">Denver</li>
+            <li class="list-group-item">Atlanta</li>
+        </ul>
+    </div>
+
+    <!--   Five Day Forecast -->
+        <div class="col-sm-10">
+            <h4>5 Day Forecast</h4>
+            <p>Day 1</p> 
+            <p>Day 2</p>
+            <p>Day 3</p>
+            <p>Day 4</p>
+            <p>Day 5</p>
+            
+        </div>
+
+    </div>
+
+</body>
+</html>
